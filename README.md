@@ -37,5 +37,6 @@ rye run jupyter notebook notebooks/koopman_operator_ex1.ipynb
 
 
 ## References
-- Milan Korda, Igor Mezić, Linear predictors for nonlinear dynamical systems: Koopman operator meets model predictive control, Automatica,2018
-- 薄良彦, クープマン作用素による非線形システムの制御, 計測と制御, 2022
+- [Milan Korda, Igor Mezić, Linear predictors for nonlinear dynamical systems: Koopman operator meets model predictive control, Automatica, 2018](https://www.sciencedirect.com/science/article/pii/S000510981830133X)
+- [薄良彦, クープマン作用素による非線形システムの制御, 計測と制御, 2022](https://www.jstage.jst.go.jp/article/sicejl/61/2/61_133/_article/-char/ja/)
+
