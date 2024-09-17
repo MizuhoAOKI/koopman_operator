@@ -29,16 +29,16 @@ rye run jupyter notebook notebooks/koopman_operator_ex1.ipynb
 
 #### Single machine infinite bus system (ground truth)
 
-$$
+```math
 \begin{align}
 &\text{system state }\bm{x}\in \mathbb{R}^2 \text{:} \quad \bm{x} = [x_1, x_2], \nonumber \\
 &\text{control input }\bm{u}\in \mathbb{R} \text{:} \quad \bm{u} = [u_1], \nonumber \\
 &\text{parameters: } D, B, P \in \mathbb{R}. \nonumber \\
 \end{align}
-$$
+```
 
 The state update rule is given by the following equation.
-$$
+```math
 \begin{equation}
 \left\{
 \begin{align}
@@ -47,7 +47,7 @@ $$
 \end{align}
 \right. \nonumber
 \end{equation}
-$$
+```
 
 <img src="./media/ex1_training.png" width="500px" alt="ex1_training" />
 
