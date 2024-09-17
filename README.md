@@ -55,10 +55,28 @@ The state update rule is given by the following equation.
 
 #### Comparison between ground truth and approximated system by koopman operator
 
-<img src="./media/ex1_evaluation.png" width="500px" alt="ex1_prediction" />
+<img src="./media/ex1_evaluation.png" width="500px" alt="ex1_evaluation" />
+
+
+### [Ex. 2] Prediction of nonlinear affine system
+```sh
+cd kooopman_operator
+rye run jupyter notebook notebooks/koopman_operator_ex2.ipynb
+```
+
+#### Unicycle Model (ground truth)
+
+<img src="./media/ex2_training.png" width="500px" alt="ex2_training" />
+
+<img src="./media/ex2_training_trajectory.png" width="500px" alt="ex2_training_trajectory" />
+
+#### Comparison between ground truth and approximated system by koopman operator
+
+<img src="./media/ex2_evaluation.png" width="500px" alt="ex2_evaluation" />
+
+<img src="./media/ex2_evaluation_trajectory.png" width="500px" alt="ex2_evaluation_trajectoy" />
 
 
 ## References
 - [Milan Korda, Igor Mezić, Linear predictors for nonlinear dynamical systems: Koopman operator meets model predictive control, Automatica, 2018](https://www.sciencedirect.com/science/article/pii/S000510981830133X)
 - [薄良彦, クープマン作用素による非線形システムの制御, 計測と制御, 2022](https://www.jstage.jst.go.jp/article/sicejl/61/2/61_133/_article/-char/ja/)
-
